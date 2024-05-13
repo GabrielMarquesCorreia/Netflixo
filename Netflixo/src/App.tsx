@@ -1,10 +1,11 @@
 import {} from 'react'
+import { Router } from './pages/routes'
 
 function App() {
 
   return (
     <>
-      <div className='text-white'>Hello WOrld</div>
+      <Router/>
     </>
   )
 }
