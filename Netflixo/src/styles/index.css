@@ -2,6 +2,16 @@ body {
   background-color: black;
 }
 
+.scrollA::-webkit-scrollbar {
+  background: transparent;
+  height: 10px;
+}
+
+.scrollA::-webkit-scrollbar-thumb {
+  background-color: red;
+  border-radius: 10rem;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

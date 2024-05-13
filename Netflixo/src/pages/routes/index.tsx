@@ -4,6 +4,7 @@ import Login from "../login";
 import News from "../news";
 import Profile from "../profile";
 import Search from "../search";
+import Home from "../home";
 
 export function Router() {
 
@@ -16,6 +17,7 @@ export function Router() {
                 <Route path="/news" element={<News />} />
                 <Route path="/games" element={<Games />} />
                 <Route path="/search" element={<Search />} />
+                <Route path="/home" element={<Home />} />
             </Routes>
         </BrowserRouter>
 

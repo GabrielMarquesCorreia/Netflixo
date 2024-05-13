@@ -130,8 +130,10 @@ return (
 
         {/* Home Start */}
           <button type='button' className='text-center mt-5'>
-            <HomeOutlined className='text-gray3 text-5xl'/>
-            <p className='text-gray3 text-xl mt-2 font-semibold'>Home</p>
+            <Link to={"../home"}>
+              <HomeOutlined className='text-gray3 text-5xl'/>
+              <p className='text-gray3 text-xl mt-2 font-semibold'>Home</p>
+            </Link>
           </button>
         {/* Home End */}
 
@@ -171,7 +173,7 @@ return (
 
       {/* Tablets Links Menu Start */}
         <div className='flex gap-8 text-white lg:hidden'>
-          <Link to={'#'} className='text-xl font-semibold'>Home</Link>
+          <Link to={'../home'} className='text-xl font-semibold'>Home</Link>
           <Link to={'../news'} className='text-xl font-semibold'>Novidades</Link>
           <Link to={'../games'} className='text-xl font-semibold'>Jogos</Link>
           <Link to={'#'} className='text-xl font-bold text-red-700'>Perfil</Link>
@@ -421,8 +423,10 @@ return (
 
         {/* Home Icon Mobile Start */}
           <button type='button' className='text-center'>
-            <HomeOutlined className='text-gray3 text-5xl'/>
-            <p className='text-gray3 text-lg font-semibold'>Home</p>
+            <Link to={"../home"}>
+              <HomeOutlined className='text-gray3 text-5xl'/>
+              <p className='text-gray3 text-lg font-semibold'>Home</p>
+            </Link>
           </button>
         {/* Home Icon Mobile End */}
 

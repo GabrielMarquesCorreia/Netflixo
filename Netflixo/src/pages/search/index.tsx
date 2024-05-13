@@ -81,54 +81,33 @@ function Search() {
                     {/* Dragon Ball Start */}
                     <Link to={'#'} className="mt-5 flex justify-between items-center">
                         <img src="./../../../public/images/dragonball-1.svg" className='w-44 md:w-72' alt="dragon-ball"/>
-                                    <p className="text-lg md:text-2xl font-bold">Dragon Ball Z</p>
-                                    <PlayCircleOutlined className="text-5xl md:text-6xl font-bold"/>
+                        <p className="text-lg md:text-2xl font-bold">Dragon Ball Z</p>
+                        <PlayCircleOutlined className="text-5xl md:text-6xl font-bold"/>
                     </Link>
-                        {/* <button type='button'>
-                            <div className="flex justify-between gap-3">
-                                <Link to={'#'} className="mt-5 flex justify-center items-center">
-                                    <img src="./../../../public/images/dragonball-1.svg" className='w-44 md:w-72' alt="dragon-ball"/>
-                                    <p className="text-lg md:text-2xl font-bold">Dragon Ball Z</p>
-                                    <PlayCircleOutlined className="text-5xl md:text-6xl font-bold"/>
-                                </Link>
-                            </div>
-                        </button> */}
                     {/* Dragon Ball End */}
 
                     {/* Supernatural Start */}
-                    {/* <button type='button'>
-                        <Link to={'#'} className="mt-5 flex justify-center items-center">
-                            <img src="./../../../public/images/supernatural2.svg" className='w-44' alt="Supernatural"/>
-                            <div className="flex ml-3 justify-between items-center text-center w-44">
-                                <p className="text-lg font-bold">Supernatural</p>
-                                <PlayCircleOutlined className="text-5xl font-bold"/>
-                                </div>
-                        </Link>
-                    </button> */}
+                    <Link to={'#'} className="mt-5 flex justify-between items-center">
+                        <img src="./../../../public/images/supernatural2.svg" className='w-44 md:w-72' alt="Supernatural"/>
+                        <p className="text-lg md:text-2xl font-bold">Supernatural</p>
+                        <PlayCircleOutlined className="text-5xl md:text-6xl font-bold"/>
+                    </Link>
                     {/* Supernatural End */}
 
                     {/* Mickey Start */}
-                    {/* <button type='button'>
-                        <Link to={'#'} className="mt-5 flex justify-center items-center">
-                            <img src="./../../../public/images/mickey.svg" className='w-44' alt="Mickey"/>
-                            <div className="flex ml-1 justify-between items-center text-center w-48">
-                                <p className="text-lg font-bold">Mickey e os 3 mosqueteiros</p>
-                                <PlayCircleOutlined className="text-5xl font-bold"/>
-                            </div>
-                        </Link>
-                    </button> */}
+                    <Link to={'#'} className="mt-5 flex justify-between items-center">
+                        <img src="./../../../public/images/mickey.svg" className='w-44 md:w-72' alt="Mickey e os 3 mosqueteiros"/>
+                        <p className="text-lg md:text-2xl font-bold w-29">Mickey e os 3 mosqueteiros </p>
+                        <PlayCircleOutlined className="text-5xl md:text-6xl font-bold"/>
+                    </Link>
                     {/* Mickey End */}
 
                     {/* Assassinato no Expresso do Oriente Start */}
-                    {/* <button type='button'>
-                        <Link to={'#'} className="mt-5 flex justify-center items-center">
-                            <img src="./../../../public/images/melhorFilme.svg" className='w-44' alt="Assassinato no Expresso do Oriente"/>
-                            <div className="flex ml-3 justify-between items-center text-center w-44">
-                                <p className="text-md font-bold">Assassinato no expreso do Oriente</p>
-                                <PlayCircleOutlined className="text-5xl font-bold"/>
-                            </div>
-                        </Link>
-                    </button> */}
+                    <Link to={'#'} className="mt-5 flex justify-between items-center">
+                        <img src="./../../../public/images/melhorFilme.svg" className='w-44 md:w-72' alt="Assassinato no Expresso do Oriente"/>
+                        <p className="text-lg md:text-2xl font-bold w-29">Assassinato no expresso do oriente </p>
+                        <PlayCircleOutlined className="text-5xl md:text-6xl font-bold"/>
+                    </Link>
                     {/* Assassinato no Expresso do Oriente End */}
 
                 </div>
