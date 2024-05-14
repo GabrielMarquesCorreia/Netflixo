@@ -45,7 +45,7 @@ function News() {
             {/* Desktops Menu End */}
 
         {/* Header Start */}
-            <div className='hidden md:flex bg-gray2 h-20 items-center justify-center lg:justify-between text-center gap-12 p-4 lg:bg-transparent lg:ml-28'>
+        <div className='hidden md:flex bg-gray2 h-20 items-center justify-center lg:justify-between text-center gap-12 p-4 lg:bg-transparent lg:ml-28 lg:hidden fixed w-screen -mt-20'>
 
         {/* Logo Start */}
             <img src="./../../../public/images/logo-principal.svg" alt="Logo" className='md:w-44 xxl:w-52 flex items-center'/>
@@ -53,7 +53,7 @@ function News() {
 
         {/* Tablets Links Menu Start */}
             <div className='flex gap-8 text-white lg:hidden'>
-            <Link to={'#'} className='text-xl font-semibold'>Home</Link>
+            <Link to={'../home'} className='text-xl font-semibold'>Home</Link>
             <Link to={'#'} className='text-xl font-bold text-red-700'>Novidades</Link>
             <Link to={'../games'} className='text-xl font-semibold'>Jogos</Link>
             <Link to={'../profile/1'} className='text-xl font-semibold'>Perfil</Link>
@@ -84,7 +84,7 @@ function News() {
         </div>
         {/* Header End */}
 
-            <div className='m-3 text-white z-10 h-111 md:h-auto lg:ml-32'>
+            <div className='m-3 text-white z-10 h-111 md:h-auto lg:ml-32 mt-20'>
                 {/* Header Mobile Start */}
                     <div className='flex justify-between md:hidden'>
                         <p className='text-3xl font-semibold'>Novidades</p>
@@ -251,12 +251,15 @@ function News() {
                 {/* Content End */}
             </div>
 
+            {/* Mobile Menu Start */}
             <div className='md:hidden z-0 fixed bg-gray2 -mt-31 w-full h-24 flex justify-center items-center text-center gap-7'>
 
                 {/* Home Icon Mobile Start */}
                     <button type='button' className='text-center'>
-                        <HomeOutlined className='text-gray3 text-5xl'/>
-                        <p className='text-gray3 text-lg font-semibold'>Home</p>
+                        <Link to={'../home'}>
+                            <HomeOutlined className='text-gray3 text-5xl'/>
+                            <p className='text-gray3 text-lg font-semibold'>Home</p>
+                        </Link>
                     </button>
                 {/* Home Icon Mobile End */}
 
@@ -277,6 +280,7 @@ function News() {
                 {/* Games Icon End */}
 
             </div>
+            {/* Mobile Menu End */}
       
         </>
 

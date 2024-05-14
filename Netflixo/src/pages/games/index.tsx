@@ -8,7 +8,7 @@ function Games() {
         <>
 
         {/* Header Start */}
-            <div className='hidden md:flex bg-gray2 h-20 items-center justify-center lg:justify-between text-center gap-12 p-4 lg:bg-transparent lg:ml-28 lg:hidden'>
+            <div className='hidden md:flex bg-gray2 h-20 items-center justify-center lg:justify-between text-center gap-12 p-4 lg:bg-transparent lg:ml-28 lg:hidden fixed w-screen -mt-28'>
 
                 {/* Logo Start */}
                     <img src="./../../../public/images/logo-principal.svg" alt="Logo" className='md:w-44 xxl:w-52 flex items-center lg:hidden'/>
@@ -41,7 +41,7 @@ function Games() {
             {/* Header End */}
 
             {/* Background Tablet Start */}
-                <img src="./../../../public/images/tabletGames.svg" alt="Games Tablet" className="mt-8 sm:hidden md:flex lg:hidden"/>
+                <img src="./../../../public/images/tabletGames.svg" alt="Games Tablet" className="mt-28 sm:hidden md:flex lg:hidden"/>
             {/* Background Tablet End */}
 
             <div className='m-3 md:m-6 text-white z-10 h-114 md:h-auto lg:hidden'>
@@ -206,8 +206,10 @@ function Games() {
 
                 {/* Home Icon Mobile Start */}
                     <button type='button' className='text-center'>
-                        <HomeOutlined className='text-gray3 text-5xl'/>
-                        <p className='text-gray3 text-lg font-semibold'>Home</p>
+                        <Link to={'../home'}>
+                            <HomeOutlined className='text-gray3 text-5xl'/>
+                            <p className='text-gray3 text-lg font-semibold'>Home</p>
+                        </Link>
                     </button>
                 {/* Home Icon Mobile End */}
 
