@@ -9,7 +9,7 @@ function News() {
         <>
 
             {/* Desktops Menu Start */}
-                <div className='bg-gray8 h-screen w-28 z-30 fixed sm:hidden lg:flex items-center justify-center text-center text-white'>
+                <div className='bg-gray8 h-screen w-28 z-30 fixed hidden lg:flex items-center justify-center text-center text-white -mt-20'>
                     <div className='flex-col justify-center gap-2 md:gap-12'>
 
                         {/* Home Start */}
@@ -45,7 +45,7 @@ function News() {
             {/* Desktops Menu End */}
 
         {/* Header Start */}
-        <div className='hidden md:flex bg-gray2 h-20 items-center justify-center lg:justify-between text-center gap-12 p-4 lg:bg-transparent lg:ml-28 lg:hidden fixed w-screen -mt-20'>
+        <div className='hidden md:flex bg-gray2 h-20 items-center justify-center lg:justify-between text-center gap-12 p-4 lg:bg-transparent lg:ml-28 fixed w-screen -mt-20'>
 
         {/* Logo Start */}
             <img src="./../../../public/images/logo-principal.svg" alt="Logo" className='md:w-44 xxl:w-52 flex items-center'/>
