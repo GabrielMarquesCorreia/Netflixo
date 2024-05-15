@@ -81,29 +81,65 @@ function Home() {
                 </div>
                 {/* Desktops Menu End */}
 
-                <div className="bg-gradient-to-b from-bgGray to-black lg:from-black">
-                    {/* Header Mobile Start */}
-                    <div className='flex justify-between md:hidden text-white p-3 w-screen'>
+            </div>
 
-                        {/* Back Arrow Start */}
-                        <div className="text-white flex justify-center items text-center gap-3">
-                            <Link to="#" onClick={() => window.history.back()}>
-                                <ArrowLeftOutlined className="text-4xl font-bold" />
-                            </Link>
+            <div className="bg-gradient-to-b from-bgGray to-black lg:from-black">
+
+                {/* Header Mobile Start */}
+                <div className='flex justify-between md:hidden text-white p-3 w-screen'>
+
+                    {/* Back Arrow Start */}
+                    <div className="text-white flex justify-center items text-center gap-3">
+                        <Link to="#" onClick={() => window.history.back()}>
+                            <ArrowLeftOutlined className="text-4xl font-bold" />
+                        </Link>
                         <p className='text-3xl font-semibold'>Séries</p>
-                        </div>
-                        {/* Back Arrow End */}
+                    </div>
+                    {/* Back Arrow End */}
 
-                        {/* Search Mobile Start */}
-                        <button type="button" className='bg-none lg:hidden'>
-                            <Link to={'../search'}>
-                                <SearchOutlined className='font-bold text-4xl'/>
-                            </Link>
-                        </button>
-                        {/* Search Mobile Ens */}
+                    {/* Search Mobile Start */}
+                    <button type="button" className='bg-none lg:hidden'>
+                        <Link to={'../search'}>
+                            <SearchOutlined className='font-bold text-4xl'/>
+                        </Link>
+                    </button>
+                    {/* Search Mobile Ens */}
+
+                </div>
+                {/* Header Mobile End */}
+
+                <div className="p-3">
+
+                    {/* Option Start */}
+                    <div className="scrollA md:flex justify-center items-center text-center overflow-x-auto max-w-screen-lg md:overflow-hidden">
+
+                        <div className="flex w-100 md:w-auto">
+                            <div className="flex gap-3 w-39 md:w-auto">
+
+                                <div className="bg-white w-56 h-9 rounded-2xl flex justify-center items-center text-center md:w-72 md:h-10">
+                                    <p className="text-xl font-bold md:text-xl">Todas as categorias</p>
+                                </div>
+
+                                <div className="bg-transparent border-solid border-2 w-24 h-9 rounded-2xl  flex justify-center items-center text-center text-white md:">
+                                    <p className="text-xl font-bold md:text-xl">Séries</p>
+                                </div>
+
+                                <div className="bg-transparent border-solid border-2 w-24 h-9 rounded-2xl  flex justify-center items-center text-center text-white">
+                                    <p className="text-xl font-bold">Filmes</p>
+                                </div>
+
+                            </div>
+                        </div>
 
                     </div>
-                    {/* Header Mobile End */}
+                    {/* Option End */}
+
+                    {/* Principal Serie Start */}
+                    <div>
+                        <img src="./../../../public/images/doctor.svg" alt="" />
+                    </div>
+                    {/* Principal Serie End */}
+
                 </div>
 
             </div>
